@@ -13,7 +13,7 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    virtual-host:/
+    virtual-host: /
     host: paascloud-mq-rabbit
     port: 5672
     username: luck_nhb
